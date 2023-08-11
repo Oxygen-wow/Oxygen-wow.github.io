@@ -1,0 +1,291 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HTML+CSS | Oxygen's Blog</title><meta name="keywords" content="web"><meta name="author" content="oxygen"><meta name="copyright" content="oxygen"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="HTML1.&lt;标签名&gt;  开头 2.html标签 内容写在html里 一个页面只能有一个html 3.head标签metacharset 编码格式 name&#x3D;keywords 关键词 description 描述信息 4.bodydiv 块区域 设置了宽度和高度都会有效果，如果不设置宽度占100%，如果不设置高度随内容填充 span 行区域 设置了高度宽度无效 h1到h6 标题标签 列">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML+CSS">
+<meta property="og:url" content="https://oxygen-wow.github.io/2023/08/01/HTML+CSS/index.html">
+<meta property="og:site_name" content="Oxygen&#39;s Blog">
+<meta property="og:description" content="HTML1.&lt;标签名&gt;  开头 2.html标签 内容写在html里 一个页面只能有一个html 3.head标签metacharset 编码格式 name&#x3D;keywords 关键词 description 描述信息 4.bodydiv 块区域 设置了宽度和高度都会有效果，如果不设置宽度占100%，如果不设置高度随内容填充 span 行区域 设置了高度宽度无效 h1到h6 标题标签 列">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg">
+<meta property="article:published_time" content="2023-08-01T03:11:32.000Z">
+<meta property="article:modified_time" content="2023-08-11T02:13:56.857Z">
+<meta property="article:author" content="oxygen">
+<meta property="article:tag" content="web">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg"><link rel="shortcut icon" href="https://s2.loli.net/2023/06/16/XEiA4bLQmkBycf7.png"><link rel="canonical" href="https://oxygen-wow.github.io/2023/08/01/HTML+CSS/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":10,"languages":{"author":"作者: oxygen","link":"链接: ","source":"来源: Oxygen's Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'HTML+CSS',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-08-11 10:13:56'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2023/06/16/NrXwuv3QnMGOahR.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Oxygen's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">HTML+CSS</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2023-08-01T03:11:32.000Z" title="undefined 2023-08-01 11:11:32">2023-08-01</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/web/">web</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="HTML+CSS"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2023/08/01/HTML+CSS/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/2023/08/01/HTML+CSS/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>1.&lt;标签名&gt; <!doctype html> 开头</p>
+<p>2.html标签 内容写在html里 一个页面只能有一个html</p>
+<h4 id="3-head标签"><a href="#3-head标签" class="headerlink" title="3.head标签"></a>3.head标签</h4><h4 id="meta"><a href="#meta" class="headerlink" title="meta"></a>meta</h4><p>charset 编码格式</p>
+<p>name=keywords 关键词</p>
+<p>description 描述信息</p>
+<h4 id="4-body"><a href="#4-body" class="headerlink" title="4.body"></a>4.body</h4><p>div 块区域 设置了宽度和高度都会有效果，如果不设置宽度占100%，如果不设置高度随内容填充</p>
+<p>span 行区域 设置了高度宽度无效</p>
+<p>h1到h6 标题标签</p>
+<p>列表标签 ol li 有序列表 type属性 默认1按照数字排序 A按照大写字母排序 a按照小写字母排序 I按照大写罗马数字排序 i按照小写罗马数字排序</p>
+<p>列表标签 ul li 无序列表 ul是父元素 li为ul中的父元素</p>
+<p>p标签 不能包裹其他标签 只能</p>
+<p>a标签 超链接和锚点 设置href target 跳转目标 在当前页面跳转 _self默认 _blank 新的页面打开  锚点：#+name值 跳转至name值的位置 快速定位</p>
+<p>strong 加粗</p>
+<p>br 换行</p>
+<p>em 斜体</p>
+<p>语义化标签 header头部 nav导航 main主要内容 section块 aside侧边栏 footer页脚</p>
+<p>表单 form标签 input(type默认text 一般输入框 password密码 date日期 time时间 number数字 file文件选择 color颜色 hidden隐藏内容 radio 单选框需要有name值，name值相同的为一组，一组中只能选一个  checkbox多选框 button按钮已废弃 reset重置按钮已废弃 submit提交按钮已废弃)</p>
+<p>button标签 button reset submit</p>
+<p>textarea区域框 rows显示行数</p>
+<p>select选择 搭配option下拉框</p>
+<p>datalist下拉框 搭配option和list</p>
+<p>table 表格 thread表头tr th tbody表身 tr td td中使用rowspan合并行 colspan合并列  border-collapse: collapse;合并单元格边框线</p>
+<p>iframe框架页 嵌套页面 设置name 让a标签套target</p>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><h4 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h4><p>#匹配id值(一个标签只能有一个id值) .匹配class值(一个表标签可以有多个class值) 元素选择器 内联样式&gt;id&gt;class&gt;元素选择器</p>
+<p>伪类选择器 hover鼠标放上后变色 neh-child(索引) nth-last-child(索引)</p>
+<p>层级选择器 父类&gt;子类 只匹配子类 父类 子类 不限制层级</p>
+<h4 id="样式-盒子模型"><a href="#样式-盒子模型" class="headerlink" title="样式 盒子模型"></a>样式 盒子模型</h4><p>width宽度 height高度  background背景颜色 红绿蓝 #000000  宽高 写法 属性名:属性值  盒子模型实际大小 宽度:width+左右内边距+左右框线  高度:height+上下内边距+上下框线 border-sizing:content-box默认content border-box内边距和框线往里走</p>
+<p>外边距margin(1个值上下左右 2个值上下 左右 3个值 上 左右 下 4个值 上右下左) margin-left和margin-right都设置为auto会相对居中</p>
+<p>内边距 padding 1个值 上下左右 2个值 上下 左右 3个值 上 左右 下 4个值 上右下左</p>
+<p>边框线 border四个框线 solid实线 dashed线虚线 dotted点虚线 inset凹陷感 outset凸起感</p>
+<p>display block将元素转换为块元素 inline将元素转换为行元素 inline-block 将元素转换为行内块</p>
+<p>转义 空格 &amp;nbsp；&amp; &amp;amp；&lt; &amp;lt；&gt; &amp;gt；</p>
+<p>浮动 脱离文档流浮动可并排 清除浮动 clear left right both 必须写在有浮动的同级元素，清除浮动保持浮动位置</p>
+<p>定位 不改别人，只改自己 position static默认固定 relative相对固定不脱离文档流 absolute绝对定位脱离文档流，起点位置先看父元素有无定位，有则参照父元素，无则向上看 fixed固定定位脱离文档流屏幕 top left right bottom 覆盖规则有定位盖着没定位的</p>
+<p>line-height 行高 </p>
+<p>text-align 文字位置对齐方式 left right center </p>
+<p>font-size px em rem 使用rem批量修改字体大小 html{ font-size：16px font-family: ‘微软雅黑’}</p>
+<p>长度单位 px %参考父元素 em参考父元素的font-size rem参考html的font-size  vh参考浏览器的高度100vh  vw参考浏览器宽度100vw</p>
+<p>text-decoration 下划线</p>
+<p>弹性模型  区域划分 display：flex   flex-direction父元素决定分配方向 row水平分配 column垂直分配 row-reverse水平翻转 column-reverse垂直翻转 align-items如果水平分配则垂直对齐，如果垂直分配则水平对齐 flex-start开始位置对齐 flex-end结束位置对齐 center居中对齐 justify-content如果水平分水平对齐，垂直分垂直对齐 space-between空隙</p>
+<p>img 行内块 src路径 设置大小通过css宽度和高度 第二个直接在标签上设置</p>
+<p>background-color背景色 background-image背景图url(图片路径)</p>
+<p>background-repeat平铺 repeat-x repeat repeat-y no-repeat background-position两个值，水平位置，垂直位置，center居中 background-size 两个值 宽度和高度 contain小比例改变 cover大比例改变</p>
+<p>伪元素  选择器::before  选择器::after</p>
+<p>opacity透明度</p>
+<p>flex-wrap 默认不换行nowrap 超出后换行wrap</p>
+<p>阴影效果 块加阴影 box-shadow 文字加阴影 text-shadow</p>
+<p>过渡效果 transition 过渡时间</p>
+<p>圆角 border-radius 值为半径 1个值四个角 2个值左上右下和右上左下 4个值顺时针一圈</p>
+<p>overflow内容超出hidden隐藏 配合text-overflow: ellipsis和white-space:nowrap 效果…</p>
+<p>font-weight字体粗细 100-900 正常400 bold等于700(h1-h6)</p>
+<h4 id="小米商城效果"><a href="#小米商城效果" class="headerlink" title="小米商城效果"></a>小米商城效果</h4><p><img src="https://s2.loli.net/2023/08/08/lJ5XRBYreqvpIoM.png"></p>
+<p><img src="https://s2.loli.net/2023/08/08/O7SGzik6aqm4gDb.png"></p>
+<p><img src="https://s2.loli.net/2023/08/08/BCKadIrYlGFHzix.png"></p>
+<p><img src="https://s2.loli.net/2023/08/08/N2WtAoBsOybiwGI.png"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">oxygen</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://oxygen-wow.github.io/2023/08/01/HTML+CSS/">https://oxygen-wow.github.io/2023/08/01/HTML+CSS/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://Oxygen-wow.github.io" target="_blank">Oxygen's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/web/">web</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2023/03/01/django%E6%A1%86%E6%9E%B6%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/"><img class="prev-cover" src="https://s2.loli.net/2023/06/16/qUMXH61LlA3IWSy.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">django框架商城项目总结</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s2.loli.net/2023/06/16/NrXwuv3QnMGOahR.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">oxygen</div><div class="author-info__description">积跬步以至千里</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Oxygen-wow" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:2639866117@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#HTML"><span class="toc-number">1.</span> <span class="toc-text">HTML</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-head%E6%A0%87%E7%AD%BE"><span class="toc-number">1.1.</span> <span class="toc-text">3.head标签</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#meta"><span class="toc-number">1.2.</span> <span class="toc-text">meta</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-body"><span class="toc-number">1.3.</span> <span class="toc-text">4.body</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS"><span class="toc-number">2.</span> <span class="toc-text">CSS</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%89%E6%8B%A9%E5%99%A8"><span class="toc-number">2.1.</span> <span class="toc-text">选择器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%B7%E5%BC%8F-%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B"><span class="toc-number">2.2.</span> <span class="toc-text">样式 盒子模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%8F%E7%B1%B3%E5%95%86%E5%9F%8E%E6%95%88%E6%9E%9C"><span class="toc-number">2.3.</span> <span class="toc-text">小米商城效果</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/08/01/HTML+CSS/" title="HTML+CSS"><img src="https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML+CSS"/></a><div class="content"><a class="title" href="/2023/08/01/HTML+CSS/" title="HTML+CSS">HTML+CSS</a><time datetime="2023-08-01T03:11:32.000Z" title="发表于 2023-08-01 11:11:32">2023-08-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/03/01/django%E6%A1%86%E6%9E%B6%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/" title="django框架商城项目总结"><img src="https://s2.loli.net/2023/06/16/qUMXH61LlA3IWSy.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="django框架商城项目总结"/></a><div class="content"><a class="title" href="/2023/03/01/django%E6%A1%86%E6%9E%B6%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/" title="django框架商城项目总结">django框架商城项目总结</a><time datetime="2023-03-01T12:23:32.000Z" title="发表于 2023-03-01 20:23:32">2023-03-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/08/09/linux/" title="linux笔记"><img src="https://s2.loli.net/2023/06/16/j86ZtOkEuLT3ybF.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="linux笔记"/></a><div class="content"><a class="title" href="/2022/08/09/linux/" title="linux笔记">linux笔记</a><time datetime="2022-08-09T07:12:07.000Z" title="发表于 2022-08-09 15:12:07">2022-08-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/10/29/java%E5%9F%BA%E7%A1%80/" title="java基础"><img src="https://i.loli.net/2021/10/29/HVs6rK1zPj9lqUY.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="java基础"/></a><div class="content"><a class="title" href="/2021/10/29/java%E5%9F%BA%E7%A1%80/" title="java基础">java基础</a><time datetime="2021-10-29T12:48:07.000Z" title="发表于 2021-10-29 20:48:07">2021-10-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/13/STL-%E4%BA%8C/" title="STL(二)"><img src="https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="STL(二)"/></a><div class="content"><a class="title" href="/2021/08/13/STL-%E4%BA%8C/" title="STL(二)">STL(二)</a><time datetime="2021-08-13T04:32:41.000Z" title="发表于 2021-08-13 12:32:41">2021-08-13</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://i.loli.net/2021/10/07/seFmHWMUQKw3V42.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023  <i id="heartbeat" class="fa fas fa-heartbeat"></i> oxygen</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://butterfly.js.org/">blog</a>!</div></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.2
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container:not\([display]\)').forEach(node => {
+            const target = node.parentNode
+            if (target.nodeName.toLowerCase() === 'li') {
+              target.parentNode.classList.add('has-jax')
+            } else {
+              target.classList.add('has-jax')
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.css"><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 't6QyVCKIR9JVpNEJsfQUPoqm-gzGzoHsz',
+      appKey: 'LXtmx2XglM6VzwaHkQtNHjdV',
+      placeholder: '请留下你的邮箱...可以快速收到回复',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+      requiredFields: ["nick,mail"],
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
